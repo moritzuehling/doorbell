@@ -1,0 +1,18 @@
+{
+  "name": "doorbell",
+  "version": "1.0.0",
+  "description": "When my doorbell rings, notify me",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "debug": "SET DEBUG=record && ts-node ./src/index.ts"
+  },
+  "author": "moritzuehling",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.7.5",
+    "jsfft": "0.0.4",
+    "node-record-lpcm16": "^1.0.1",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  }
+}
